@@ -2,7 +2,7 @@
 Keyword Module
 ===============
 
-Did you know that there are 33 keywords in Python?
+Did you know that there are **33 keywords** in Python?
 Knowing about them will prevent you from making the mistake of naming your variable with one.
 Here is how you could use this module.
 
@@ -25,7 +25,7 @@ If you wish to view the complete list of all the keywords, you could use the fol
 *********************************************************
 Step 3: Check any word to ensure that it’s not a keyword:
 *********************************************************
-This is how you could chack if any word is a keyword or not. Type your word as a string, enclose it in a set of parenthesis, if it is a keyword, Python will return a 'True', if it's not a keyword, 'False' will be returned.
+This is how you could check if any word is a keyword or not. Type your word as a string, enclose it in a set of parenthesis, if it is a keyword, Python will return a 'True', if it's not a keyword, 'False' will be returned.
 
 >>> keyword.iskeyword(‘global’)
 
