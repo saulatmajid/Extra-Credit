@@ -1,7 +1,7 @@
 
-#################
+
 Keyword Module
-#################
+==============
 
 Did you know that there are 33 keywords in Python?
 Knowing about them will prevent you from making the mistake of naming your variable with one.
@@ -23,8 +23,11 @@ Step 3: Check any word to ensure that it’s not a keyword:
 =========================================================
 
 >>> keyword.iskeyword(‘global’)
+
 True
+
 >>> keyword.iskeyword(‘cheese’)
+
 False
 
 Step 4: Undo Import:
@@ -37,4 +40,5 @@ del keyword
 Reference:
 ==========
 https://www.youtube.com/watch?v=B-7exsBxFlA
+
 https://docs.python.org/3/library/keyword.html#module-keyword
